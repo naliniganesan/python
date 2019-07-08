@@ -1,5 +1,5 @@
-total_minutes=int(input())
-hours=total_minutes//60
-minutes=total_minutes%60
-time="{} {}".format(hours,minutes)
+t_min=int(input())
+hrs=t_min//60
+min=t_min%60
+time="{} {}".format(hrs,min)
 print(time)
