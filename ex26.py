@@ -1,4 +1,5 @@
-a=int(input())
-b=list(map(int,input().split()))
-c=sorted(b)
-print(a[int(len(a)/2)])
+u = int(input())
+v = list(map(int,input().split()))
+v.sort()
+for i in range(u):
+  print(v[i],end=" ")
