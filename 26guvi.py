@@ -1,0 +1,5 @@
+ sur= int(input())
+sai= list(map(int,input().split()))
+sai.sort()
+for i in range(sur)
+  print(sai[i],end=" ")

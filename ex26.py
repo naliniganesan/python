@@ -1,5 +1,0 @@
-nalu = int(input())
-sai = list(map(int,input().split()))
-sai.sort()
-for i in range(nalu)
-  print(sai[i],end=" ")
